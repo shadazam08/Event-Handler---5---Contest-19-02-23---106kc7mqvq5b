@@ -5,7 +5,7 @@ const App = () => {
 
   return (
     <div id="main">
-      <form onSubmit = { this.afterSubmition}>
+      <form onSubmit = "console.log('form submited'); return flase">
         <label htmlFor='name'>Name</label>
         <input id="name" type={"text"} />
 
