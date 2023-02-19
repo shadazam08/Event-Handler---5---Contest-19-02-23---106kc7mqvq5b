@@ -5,7 +5,7 @@ const App = () => {
 
   return (
     <div id="main">
-      <form>
+      <form onSubmit = { this.afterSubmition}>
         <label htmlFor='name'>Name</label>
         <input id="name" type={"text"} />
 
